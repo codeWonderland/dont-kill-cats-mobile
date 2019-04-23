@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_gravity="top|center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".CONTROLLER.MainActivity"
+        android:orientation="vertical"
+        android:gravity="center|center_horizontal|center_vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="20dp">
+
+        <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                app:srcCompat="@drawable/ic_light_on"
+                android:id="@+id/lightToggle"
+                android:contentDescription="@string/light_bulb"/>
+
+        <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/ic_color_change"
+                android:id="@+id/colorChange"
+                android:contentDescription="@string/color_pallet_icon"
+                android:layout_margin="10dp"/>
+
+        <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                app:srcCompat="@drawable/ic_night_mode"
+                android:id="@+id/nightMode"
+                android:contentDescription="@string/moon_icon"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+        <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/ic_light_off"
+                android:contentDescription="@string/light_bulb"/>
+
+        <SeekBar android:layout_width="300dp"
+                 android:layout_height="20dp"
+                 style="@android:style/Widget.DeviceDefault.Light.SeekBar"
+                 android:id="@+id/lightSlider"/>
+
+        <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/ic_light_on"
+                android:contentDescription="@string/light_bulb"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="20dp">
+
+        <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                app:srcCompat="@drawable/ic_cat_face"
+                android:id="@+id/petToggle"
+                android:contentDescription="@string/cat_face"
+                android:layout_marginHorizontal="20dp"/>
+
+        <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                app:srcCompat="@drawable/ic_power_btn"
+                android:id="@+id/powerToggle"
+                android:contentDescription="@string/power_icon"
+                android:layout_marginHorizontal="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

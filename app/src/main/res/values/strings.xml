@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Don\'t Kill Ur Cats</string>
+    <string name="color_pallet_icon">Color Pallet Icon</string>
+    <string name="light_bulb">Light Bulb</string>
+    <string name="moon_icon">Moon Icon</string>
+    <string name="power_icon">Power Icon</string>
+    <string name="cat_face">Cat Face</string>
+</resources>
